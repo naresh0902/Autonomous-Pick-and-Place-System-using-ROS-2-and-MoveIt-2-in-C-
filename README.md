@@ -1,4 +1,5 @@
-# 🤖 Franka Panda Color Sorting Robot (C++ Edition)
+# 🤖 Autonomous-Pick-and-Place-System-using-ROS-2-and-MoveIt-2-in-C++
+
 
 A **ROS 2-based intelligent color sorting system** powered by the **Franka Emika Panda robotic arm**. This project is written in **native C++** and seamlessly integrates **OpenCV computer vision**, the **MoveIt 2 C++ API (`MoveGroupInterface`)**, and **Gazebo simulation** to create a high-performance, autonomous pick-and-place system that detects and sorts colored objects with precision.
 
