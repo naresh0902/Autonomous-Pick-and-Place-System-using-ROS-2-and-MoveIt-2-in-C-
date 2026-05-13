@@ -5,8 +5,6 @@ A **ROS 2-based intelligent color sorting system** powered by the **Franka Emika
 
 ---
 
----
-
 ## ✨ Features
 
 - ⚡ **Native C++ Performance**: Fully implemented in C++ utilizing `rclcpp` for minimal latency and high-speed execution.
