@@ -24,46 +24,12 @@ A **ROS 2-based intelligent color sorting system** powered by the **Franka Emika
 
 ## 📋 Table of Contents
 
-1. [📦 Prerequisites & Installation](#-prerequisites--installation)
-2. [🎮 Running the Project](#-running-the-project)
-3. [📂 Project Structure](#-project-structure)
-4. [🛠️ Customization Guide](#️-customization-guide)
+1. [🎮 Running the Project](#-running-the-project)
+2. [📂 Project Structure](#-project-structure)
+3. [🛠️ Customization Guide](#️-customization-guide)
 
 ---
 
-## 📦 Prerequisites & Installation
-
-### 1. System Requirements
-- **Ubuntu 22.04 LTS**
-- **ROS 2 Humble**
-- **16GB+ RAM** (recommended for Gazebo simulation)
-
-### 2. Install ROS 2 & Dependencies
-Ensure you have ROS 2 Humble installed, then install the necessary MoveIt 2 and vision packages:
-```bash
-sudo apt update
-sudo apt install -y \
-  ros-humble-moveit \
-  ros-humble-moveit-ros-planning-interface \
-  ros-humble-ros2-control \
-  ros-humble-ros2-controllers \
-  ros-humble-gazebo-ros2-control \
-  ros-humble-cv-bridge
-```
-
-### 3. Build the Workspace
-Clone the repository into your ROS 2 workspace and build it:
-```bash
-mkdir -p ~/panda_ws/src
-cd ~/panda_ws/src
-# Clone the repository here...
-
-cd ~/panda_ws
-rosdep install --from-paths src --ignore-src -r -y
-colcon build --cmake-args -DBoost_NO_BOOST_CMAKE=ON -DBOOST_ROOT=/usr
-```
-
----
 
 ## 🎮 Running the Project
 
