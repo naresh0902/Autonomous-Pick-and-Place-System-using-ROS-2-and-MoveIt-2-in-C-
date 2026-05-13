@@ -8,7 +8,7 @@ A **ROS 2-based intelligent color sorting system** powered by the **Franka Emika
 ## 🎥 Pick and Place Demo  
 
 *(Insert your video link or GIF here showing the simulation running)*
-`[Watch the Simulation Demo]([[link-to-your-video.mp4](https://github.com/naresh0902/Autonomous-Pick-and-Place-System-using-ROS-2-and-MoveIt-2-in-C-/blob/main/Autonomous-Pick-and-Place-System-using-ROS-2-and-MoveIt-2-in-Cpp.webm)](https://github.com/naresh0902/Autonomous-Pick-and-Place-System-using-ROS-2-and-MoveIt-2-in-C-/blob/main/Autonomous-Pick-and-Place-System-using-ROS-2-and-MoveIt-2-in-Cpp.mp4))`
+`[Watch the Simulation Demo](https://www.youtube.com/watch?v=dIyDAqxRnVA)`
 
 ---
 
